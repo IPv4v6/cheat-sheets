@@ -2,7 +2,7 @@ SRC := $(wildcard *.md)
 HTML := $(SRC:.md=.html)
 PDF := $(SRC:.md=.pdf)
 
-.PHONY: clean
+.PHONY: all html pdf clean
 
 all:	html pdf
 
